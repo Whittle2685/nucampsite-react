@@ -30,6 +30,6 @@ export const campsitesFailed = errMess => ({
 });
 
 export const addCampsites = campsites => ({
-    types: ActionTypes.ADD_CAMPSITES,
+    type: ActionTypes.ADD_CAMPSITES,
     payload: campsites
 });
